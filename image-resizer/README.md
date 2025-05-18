@@ -2,9 +2,11 @@
 
 This is a simple script to batch resize images in a folder using Python and Pillow.
 
+```
 image-resizer/
 ├── imageInput/ # Drop your original images here
 ├── imageOutput/ # Resized images will be saved here
+```
 
 ## Setup Instructions
 
