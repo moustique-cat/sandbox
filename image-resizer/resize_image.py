@@ -17,8 +17,10 @@ for filename in os.listdir(input_folder):
 
         
         with Image.open(input_path) as img:
+            original_width = img.width
             original_height = img.height
-            new_height = (int(original_height * resize_factor))
-            resized_img = img.resize(new_height)
+            new_width = int(original_width * resize_factor)
+            new_height = int(original_height * resize_factor)           
+            resized_img = img.resize((new_width, new_height))
             resized_img.save(output_path)
-            print(f"Resized {filename} from {original_size} to {new_size} in {output_path}.")
+            print(f"Resized {filename} from a width of {original_width} to {new_width} and a height of {original_height} to {new_height} in {output_path}.")
