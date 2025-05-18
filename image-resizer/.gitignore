@@ -1,0 +1,10 @@
+# Ignore input/output images but keep the folders
+imageInput/*
+!imageInput/.gitkeep
+
+imageOutput/*
+!imageOutput/.gitkeep
+
+# Ignore Python-related stuff
+__pycache__/
+venv/
