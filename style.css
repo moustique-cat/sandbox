@@ -1,0 +1,32 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  margin: 0;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+header nav {
+    display: flex;
+    gap: 32px;
+}
+
+header a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
