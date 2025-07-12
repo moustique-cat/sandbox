@@ -61,6 +61,7 @@ header, .hero-container {
     flex-direction: column;
     padding-right: 20px;
     max-width: 444px;
+    justify-content: space-evenly;
 }
 
 .hero h1 {
@@ -70,12 +71,10 @@ header, .hero-container {
     margin: 0;
 }
 
-
-
 img.hero-image {
-    height: 300px;
+    max-height: 300px;
     align-self: center;
-    flex: none;
+    flex: 1 2 auto;
 }
 
 .hero button {
@@ -83,4 +82,7 @@ img.hero-image {
     background-color: #3882F6;
     font-size: 18px;
     font-weight: 300;
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 5px;
 }
