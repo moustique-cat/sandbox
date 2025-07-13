@@ -98,9 +98,25 @@ main {
 .gallery {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
 }
 
 .image-container {
     display: flex;
     flex-direction: column;
+    width: 200px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.image-container p {
+    text-align: center;
+    padding-top: 8px;
 }
