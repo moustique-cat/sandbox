@@ -9,6 +9,8 @@ body {
   font-weight: 300;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -119,4 +121,19 @@ main {
 .image-container p {
     text-align: center;
     padding-top: 8px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    padding: 5% 15%;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quote {
+    font-size: 36px;
+    font-color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
 }
