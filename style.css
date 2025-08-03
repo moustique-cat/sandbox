@@ -134,7 +134,7 @@ main {
 
 .quote {
     font-size: 36px;
-    font-color: #1F2937;
+    color: #1F2937;
     font-style: italic;
     font-weight: lighter;
 }
@@ -162,5 +162,16 @@ main {
 }
 
 .call-action-text {
-    
+    color: #F9FAF8;
+
 }
+
+.call-action-text > p:first-child {
+    font-weight: bold;
+}
+
+.call-action-text > p:nth-child(2) {
+    font-weight: lighter;
+    color:#E5E7EB
+}
+
