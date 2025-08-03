@@ -129,6 +129,7 @@ main {
     padding: 5% 15%;
     flex-direction: column;
     gap: 10px;
+    align-items: stretch;
 }
 
 .quote {
@@ -136,4 +137,30 @@ main {
     font-color: #1F2937;
     font-style: italic;
     font-weight: lighter;
+}
+
+.quote-name {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.call-action-section {
+    display: flex;
+    padding: 5% 15%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.call-action-container {
+    background-color: #3882F6;
+    padding: 5% 15%;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.call-action-text {
+    
 }
